@@ -728,6 +728,10 @@ video {
   gap: 8rem;
 }
 
+.self-start {
+  align-self: flex-start;
+}
+
 .self-end {
   align-self: flex-end;
 }
@@ -954,9 +958,18 @@ video {
     gap: 1.5rem;
   }
 
+  .lg\:self-end {
+    align-self: flex-end;
+  }
+
   .lg\:px-20 {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+
+  .lg\:py-8 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .lg\:text-\[32px\] {
@@ -979,5 +992,9 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:text-\[25px\] {
+    font-size: 25px;
   }
 }

@@ -93,7 +93,7 @@ function createDataElement(data) {
       alt=""
     />
     </div>
-    <div class="lg:w-1/2 flex flex-col self-end">
+    <div class="lg:w-1/2 flex flex-col self-start  lg:self-end">
       <span class="uppercase text-1 font-semibold">${data.title}</span>
       <span class="text-[20px] lg:text-[32px] mt-3 lg:mt-5">${data.description}</span>
       <span class="text-base lg:text-lg mt-4 lg:mt-7">${data.category}</span>

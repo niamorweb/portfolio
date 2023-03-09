@@ -958,6 +958,10 @@ video {
     gap: 1.5rem;
   }
 
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:self-end {
     align-self: flex-end;
   }

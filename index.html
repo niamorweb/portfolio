@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link href="/style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body class="text-2 md:overflow-y-visible">
+    <header class="h-screen px-10 lg:px-20">
+      <div class="header__container relative">
+        <nav
+          class="header__nav z-10 relative flex justify-between py-5 items-center"
+        >
+          <span class="text-xl font-semibold z-10">Niamor</span>
+          <ul
+            class="header__nav_links hidden md:flex text-lg gap-10 items-center"
+          >
+            <li class="hover:text-3 duration-150">
+              <a href="#about">About</a>
+            </li>
+            <li class="hover:text-3 duration-150">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="hover:text-3 duration-150">
+              <a href="#works">Works</a>
+            </li>
+          </ul>
+          <div class="header__mobile cursor-pointer md:hidden z-10">
+            <img
+              class="header__mobile_icon_open"
+              src="/assets/icons/menu.svg"
+              alt=""
+            />
+            <img
+              class="header__mobile_icon_close hidden"
+              src="/assets/icons/close.svg"
+              alt=""
+            />
+          </div>
+        </nav>
+        <div
+          class="header__mobile_nav z-[1] md:hidden -translate-y-full duration-300 fixed w-screen h-screen top-0 left-0 bg-0 backdrop-blur-sm flex justify-center items-center"
+        >
+          <ul
+            class="flex flex-col w-full justify-center items-center text-3xl gap-10 text-2 font-bold"
+          >
+            <li class="header__mobile_nav_link hover:text-3 duration-150">
+              <a href="#about">About</a>
+            </li>
+            <li class="header__mobile_nav_link hover:text-3 duration-150">
+              <a href="#skills">Skills</a>
+            </li>
+            <li class="header__mobile_nav_link hover:text-3 duration-150">
+              <a href="#works">Works</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="header__box_text px-10 lg:px-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col w-full"
+      >
+        <span
+          class="header__intro_line1 text-[30px] md:md:text-[40px] lg:text-[56px] mb-5"
+          >Hey !
+          <span class="text-1 font-semibold">I'm Niamor, </span>
+        </span>
+        <span
+          class="header__intro_line2 text-[30px] md:text-[40px] lg:text-[56px]"
+          >A web developer specialising in
+          <span class="text-1 font-semibold">Front-end</span> and
+          <span class="text-1 font-semibold">Designs Integration</span></span
+        >
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="about"
+        class="about_me w-full flex justify-center px-10 lg:px-20 py-24"
+      >
+        <div
+          class="about_me__container flex flex-col lg:flex-row gap-8 items-center max-w-[1600px]"
+        >
+          <div class="about_me__box_text lg:w-1/2 flex flex-col gap-[16px]">
+            <span class="text-[28px] lg:text-[40px]"
+              >A bit <span class="text-1 font-semibold">about me</span></span
+            >
+            <span class="text-[22px] md:text-[32px]"
+              >I am a UI/UX designer who is passionate about creating
+              <span class="text-1 font-semibold"
+                >beautiful and joyful digital experiences. I love music, games
+                and coding.</span
+              >
+            </span>
+          </div>
+
+          <div class="about_me__gallery grid grid-cols-2 lg:w-1/2">
+            <img src="/assets/about/img1.png" alt="" />
+            <img src="/assets/about/img2.png" alt="" />
+            <img src="/assets/about/img3.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="skills"
+        class="skills w-full flex justify-center px-10 lg:px-20 py-24"
+      >
+        <div
+          class="skills__container w-full text-[28px] lg:text-[40px] flex flex-col items-start gap-12 justify-between max-w-[1600px]"
+        >
+          <div class="flex flex-col gap-2">
+            <span
+              >A bit more<span class="text-1 font-semibold">
+                about my skills</span
+              ></span
+            >
+            <span
+              class="text-[13px] lg:text-base text-1 font-semibold uppercase"
+              >1+ years of experience</span
+            >
+          </div>
+          <div class="skills__container_data grid grid-cols-1">
+            <div class="flex flex-wrap justify-center lg:row-gap-14">
+              <img src="/assets/skills/html5.svg" alt="" />
+              <img src="/assets/skills/css.svg" alt="" />
+              <img src="/assets/skills/sass.svg" alt="" />
+              <img src="/assets/skills/js.svg" alt="" />
+              <img src="/assets/skills/reactjs.svg" alt="" />
+              <img src="/assets/skills/tailwind.svg" alt="" />
+              <img src="/assets/skills/figma.svg" alt="" />
+              <img src="/assets/skills/git.svg" alt="" />
+              <img src="/assets/skills/vitejs.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="works"
+        class="works px-10 lg:px-20 py-24 flex justify-center"
+      >
+        <div class="works__container max-w-[1600px] grid gap-10 lg:gap-20">
+          <span class="text-[28px] lg:text-[40px]"
+            >Selected <span class="text-1 font-semibold">Projects</span>
+          </span>
+          <div
+            class="works__container_all_works grid grid-cols-1 gap-[8rem]"
+          ></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="flex justify-center">
+      <div class="footer__container px-10 lg:px-20 py-24 text-center">
+        <div class="flex flex-col">
+          <span class="text-[30px] md:md:text-[40px] lg:text-[56px]"
+            >Get <span class="font-semibold text-1">in Touch</span></span
+          >
+          <span class="text-[18px]">So that we can talk more about...</span>
+        </div>
+
+        <div class="footer__links flex gap-4 justify-center my-14">
+          <a href="mailto:niamorpro@proton.me">
+            <svg
+              width="48"
+              height="49"
+              viewBox="0 0 48 49"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M38 19.9512V31.35C38.0001 32.5122 37.5554 33.6303 36.7573 34.4751C35.9591 35.3199 34.8679 35.8272 33.7076 35.893L33.45 35.9H14.55C13.3878 35.9 12.2696 35.4554 11.4249 34.6572C10.5801 33.8591 10.0728 32.7679 10.007 31.6076L10 31.35V19.9512L23.5128 27.0296C23.6631 27.1083 23.8303 27.1494 24 27.1494C24.1697 27.1494 24.3369 27.1083 24.4872 27.0296L38 19.9512Z"
+                fill="#E3E4E6"
+                fill-opacity="0.55"
+              />
+              <path
+                d="M14.5501 13.5H33.4501C34.5779 13.4999 35.6655 13.9186 36.5021 14.675C37.3387 15.4314 37.8645 16.4715 37.9777 17.5936L24.0001 24.9156L10.0225 17.5936C10.131 16.516 10.6203 15.5125 11.4025 14.7634C12.1847 14.0144 13.2084 13.5689 14.2897 13.507L14.5501 13.5H33.4501H14.5501Z"
+                fill="#E3E4E6"
+                fill-opacity="0.55"
+              />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/romain-l-681221268/"
+            ><svg
+              width="48"
+              height="49"
+              viewBox="0 0 48 49"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M20.4004 20.2811H25.6V22.6121C26.349 21.2715 28.2698 20.0669 31.1552 20.0669C36.6866 20.0669 37.9998 22.7356 37.9998 27.6319V36.7002H32.3998V28.747C32.3998 25.9587 31.6508 24.3862 29.744 24.3862C27.0994 24.3862 26.0004 26.0809 26.0004 28.7458V36.7002H20.4004V20.2811Z"
+                fill="#E3E4E6"
+                fill-opacity="0.55"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10.7979 36.486H16.3979V20.0669H10.7979V36.486Z"
+                fill="#E3E4E6"
+                fill-opacity="0.55"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M17.2002 14.713C17.2004 15.1354 17.1073 15.5537 16.9263 15.9435C16.7454 16.3333 16.4801 16.6868 16.146 16.9835C15.469 17.5891 14.5525 17.9281 13.598 17.926C12.6451 17.9254 11.7308 17.5873 11.0528 16.9848C10.7199 16.6871 10.4555 16.3331 10.2749 15.9433C10.0942 15.5535 10.0008 15.1354 10 14.713C10 13.86 10.378 13.0435 11.0542 12.4412C11.7316 11.8379 12.6463 11.4996 13.5994 11.5C14.5542 11.5 15.4698 11.8389 16.146 12.4412C16.8208 13.0435 17.2002 13.86 17.2002 14.713Z"
+                fill="#E3E4E6"
+                fill-opacity="0.55"
+              />
+            </svg>
+          </a>
+          <a href="https://github.com/niamorweb"
+            ><svg
+              width="48"
+              height="48"
+              viewBox="0 0 48 48"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="duration-150"
+                d="M24 12C17.373 12 12 17.373 12 24C12 29.623 15.872 34.328 21.092 35.63C21.036 35.468 21 35.28 21 35.047V32.996C20.513 32.996 19.697 32.996 19.492 32.996C18.671 32.996 17.941 32.643 17.587 31.987C17.194 31.258 17.126 30.143 16.152 29.461C15.863 29.234 16.083 28.975 16.416 29.01C17.031 29.184 17.541 29.606 18.021 30.232C18.499 30.859 18.724 31.001 19.617 31.001C20.05 31.001 20.698 30.976 21.308 30.88C21.636 30.047 22.203 29.28 22.896 28.918C18.9 28.507 16.993 26.519 16.993 23.82C16.993 22.658 17.488 21.534 18.329 20.587C18.053 19.647 17.706 17.73 18.435 17C20.233 17 21.32 18.166 21.581 18.481C22.477 18.174 23.461 18 24.495 18C25.531 18 26.519 18.174 27.417 18.483C27.675 18.17 28.763 17 30.565 17C31.297 17.731 30.946 19.656 30.667 20.594C31.503 21.539 31.995 22.66 31.995 23.82C31.995 26.517 30.091 28.504 26.101 28.917C27.199 29.49 28 31.1 28 32.313V35.047C28 35.151 27.977 35.226 27.965 35.315C32.641 33.676 36 29.236 36 24C36 17.373 30.627 12 24 12Z"
+                fill="#E3E4E6"
+                fill-opacity="0.55"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <span
+          >Coding by <span class="font-semibold text-1">Niamor</span> and
+          designed by
+          <span class="font-semibold text-1">Srinivas Dezign</span></span
+        >
+      </div>
+    </footer>
+    <script src="/works.js"></script>
+    <script src="/nav.js"></script>
+  </body>
+</html>

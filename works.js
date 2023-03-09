@@ -103,7 +103,7 @@ function createDataElement(data) {
         target="_blank"
         class="works__work_link mt-8 flex items-center text-1 rounded-[100px] border-[1px] border-1 py-2 px-5 w-fit gap-3 text-lg uppercase"
       >
-        <span>View webiste</span>
+        <span>View website</span>
         <img src="/portfolio/assets/icons/arrow_right.svg" alt=""
       /></a>
             <a

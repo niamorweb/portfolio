@@ -1,7 +1,7 @@
 // Tableau de données à utiliser pour remplir le HTML
 var data = [
   {
-    imageSrc: "/assets/works/w1.png",
+    imageSrc: "/portfolio/assets/works/w1.png",
     title: "Ecommerce audiophile",
     description:
       "An e-commerce website for the audiophile with product to add to cart, the cart integrated and a page to checkout the order with the total price.",
@@ -11,7 +11,7 @@ var data = [
       "https://github.com/niamordev/ecommerce-audiophile-vite-project",
   },
   {
-    imageSrc: "/assets/works/w2.png",
+    imageSrc: "/portfolio/assets/works/w2.png",
     title: "NSlides",
     description:
       "A website where you can find simple sliders with their demos and their codes in html/css/js",
@@ -20,7 +20,7 @@ var data = [
     codeSource: "https://github.com/niamorweb/nslides",
   },
   {
-    imageSrc: "/assets/works/w3.png",
+    imageSrc: "/portfolio/assets/works/w3.png",
     title: "Arch Studio",
     description: "A multipage website with a slider and a great design.",
     category: "Website Design",
@@ -28,7 +28,7 @@ var data = [
     codeSource: "https://github.com/niamorweb/arch-studio",
   },
   {
-    imageSrc: "/assets/works/w4.png",
+    imageSrc: "/portfolio/assets/works/w4.png",
     title: "Entertainment web app",
     description:
       "An streaming website to watch films/series with a login/logout interface and the possibily to bookmark films and series that we prefer.",
@@ -37,7 +37,7 @@ var data = [
     codeSource: "https://github.com/niamordev/entertainment-web-app/",
   },
   {
-    imageSrc: "/assets/works/w5.png",
+    imageSrc: "/portfolio/assets/works/w5.png",
     title: "Photosnap multipage",
     description: "A design multipage website.",
     category: "Website Design",
@@ -45,7 +45,7 @@ var data = [
     codeSource: "https://github.com/niamordev/photosnap-multi-page-website",
   },
   {
-    imageSrc: "/assets/works/w6.png",
+    imageSrc: "/portfolio/assets/works/w6.png",
     title: "Designo multipage",
     description: "A design multipage website.",
     category: "Web Development",
@@ -53,7 +53,7 @@ var data = [
     codeSource: "https://github.com/niamordev/designo-multipage-website-master",
   },
   {
-    imageSrc: "/assets/works/w7.png",
+    imageSrc: "/portfolio/assets/works/w7.png",
     title: "Countries app",
     description:
       "A website with all countries of the world with their details when we click on them using an API and React.",
@@ -62,7 +62,7 @@ var data = [
     codeSource: "https://github.com/niamordev/countries-app/",
   },
   {
-    imageSrc: "/assets/works/w8.png",
+    imageSrc: "/portfolio/assets/works/w8.png",
     title: "Space tourism",
     description:
       "A design multipage website for the space lovers using React and with transitions on pages.",
@@ -71,7 +71,7 @@ var data = [
     codeSource: "https://github.com/niamordev/space-tourism-website-main",
   },
   {
-    imageSrc: "/assets/works/w9.png",
+    imageSrc: "/portfolio/assets/works/w9.png",
     title: "Ecommerce single page",
     description: "An e-commerce single page product with a cart integrated.",
     category: "Ecommerce",
@@ -104,7 +104,7 @@ function createDataElement(data) {
         class="works__work_link mt-8 flex items-center text-1 rounded-[100px] border-[1px] border-1 py-2 px-5 w-fit gap-3 text-lg uppercase"
       >
         <span>View webiste</span>
-        <img src="/assets/icons/arrow_right.svg" alt=""
+        <img src="/portfolio/assets/icons/arrow_right.svg" alt=""
       /></a>
             <a
         href="${data.codeSource}"
@@ -112,7 +112,7 @@ function createDataElement(data) {
         class="works__work_link mt-5 lg:mt-8 flex items-center text-1 rounded-[100px] border-[1px] border-1 py-2 px-5 w-fit gap-3 text-lg uppercase"
       >
         <span>View code</span>
-        <img src="/assets/icons/arrow_right.svg" alt=""
+        <img src="/portfolio/assets/icons/arrow_right.svg" alt=""
       /></a></div>
     </div>
   `;

@@ -547,10 +547,6 @@ video {
   }
 }
 
-.visible {
-  visibility: visible;
-}
-
 .fixed {
   position: fixed;
 }
@@ -641,6 +637,10 @@ video {
   width: 100vw;
 }
 
+.max-w-\[1400px\] {
+  max-width: 1400px;
+}
+
 .max-w-\[1600px\] {
   max-width: 1600px;
 }
@@ -728,20 +728,16 @@ video {
   gap: 8rem;
 }
 
+.gap-\[24px\] {
+  gap: 24px;
+}
+
 .self-start {
   align-self: flex-start;
 }
 
-.self-end {
-  align-self: flex-end;
-}
-
 .overflow-hidden {
   overflow: hidden;
-}
-
-.overflow-y-visible {
-  overflow-y: visible;
 }
 
 .rounded-\[100px\] {
@@ -761,22 +757,9 @@ video {
   border-color: rgb(227 228 230 / var(--tw-border-opacity));
 }
 
-.bg-2 {
-  background-color: rgba(227, 228, 230, 0.55);
-}
-
-.bg-1 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(227 228 230 / var(--tw-bg-opacity));
-}
-
 .bg-0 {
   --tw-bg-opacity: 1;
   background-color: rgb(19 18 18 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-70 {
-  --tw-bg-opacity: 0.7;
 }
 
 .px-10 {
@@ -873,11 +856,6 @@ video {
   color: rgba(227, 228, 230, 0.55);
 }
 
-.text-black {
-  --tw-text-opacity: 1;
-  color: rgb(0 0 0 / var(--tw-text-opacity));
-}
-
 .backdrop-blur-sm {
   --tw-backdrop-blur: blur(4px);
   -webkit-backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
@@ -950,16 +928,16 @@ video {
     align-items: center;
   }
 
+  .lg\:gap-12 {
+    gap: 3rem;
+  }
+
   .lg\:gap-20 {
     gap: 5rem;
   }
 
   .lg\:gap-6 {
     gap: 1.5rem;
-  }
-
-  .lg\:gap-12 {
-    gap: 3rem;
   }
 
   .lg\:self-end {
@@ -971,9 +949,18 @@ video {
     padding-right: 5rem;
   }
 
+  .lg\:py-40 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
   .lg\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
+  }
+
+  .lg\:text-\[25px\] {
+    font-size: 25px;
   }
 
   .lg\:text-\[32px\] {
@@ -996,9 +983,5 @@ video {
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
-  }
-
-  .lg\:text-\[25px\] {
-    font-size: 25px;
   }
 }

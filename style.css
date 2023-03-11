@@ -98,8 +98,8 @@ body {
 }
 
 .header__nav {
-  -webkit-animation: navAnim 1s 2s ease-in-out forwards;
-          animation: navAnim 1s 2s ease-in-out forwards;
+  -webkit-animation: opacityAnim 1s 2s ease-in-out forwards;
+          animation: opacityAnim 1s 2s ease-in-out forwards;
   opacity: 0;
 }
 
@@ -113,6 +113,12 @@ body {
   -webkit-animation: headerlineAnim 1.3s 0.3s ease-in-out forwards;
           animation: headerlineAnim 1.3s 0.3s ease-in-out forwards;
   transform: rotateX(90deg);
+}
+
+.header__arrow_intro {
+  opacity: 0;
+  -webkit-animation: opacityAnim 1s 2s ease-in-out forwards, translateYAnim 1s 2.2s ease-in-out infinite;
+          animation: opacityAnim 1s 2s ease-in-out forwards, translateYAnim 1s 2.2s ease-in-out infinite;
 }
 
 @-webkit-keyframes headerlineAnim {
@@ -132,13 +138,25 @@ body {
     transform: rotateX(0);
   }
 }
-@-webkit-keyframes navAnim {
+@-webkit-keyframes opacityAnim {
   100% {
     opacity: 1;
   }
 }
-@keyframes navAnim {
+@keyframes opacityAnim {
   100% {
     opacity: 1;
+  }
+}
+@-webkit-keyframes translateYAnim {
+  100% {
+    transform: translateY(300%);
+    opacity: 0.2;
+  }
+}
+@keyframes translateYAnim {
+  100% {
+    transform: translateY(300%);
+    opacity: 0.2;
   }
 }/*# sourceMappingURL=style.css.map */

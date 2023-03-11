@@ -559,6 +559,10 @@ video {
   position: relative;
 }
 
+.bottom-\[40px\] {
+  bottom: 40px;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -720,16 +724,12 @@ video {
   gap: 2rem;
 }
 
-.gap-\[16px\] {
-  gap: 16px;
+.gap-\[24px\] {
+  gap: 24px;
 }
 
 .gap-\[8rem\] {
   gap: 8rem;
-}
-
-.gap-\[24px\] {
-  gap: 24px;
 }
 
 .self-start {
@@ -876,6 +876,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:bottom-\[60px\] {
+    bottom: 60px;
+  }
+
   .md\:flex {
     display: flex;
   }

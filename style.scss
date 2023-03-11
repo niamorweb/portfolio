@@ -190,7 +190,7 @@ body {
 .header__arrow_intro {
   opacity: 0;
   animation: opacityAnim 1s 2s ease-in-out forwards,
-    translateYAnim 2s 2.2s ease-in-out infinite;
+    translateYAnim 1.6s 2.2s ease-in-out infinite;
 }
 
 @keyframes headerlineAnim {
@@ -211,7 +211,7 @@ body {
 
 @keyframes translateYAnim {
   100% {
-    transform: translateY(140%);
+    bottom: 20px;
     opacity: 0.2;
   }
 }

@@ -579,6 +579,10 @@ video {
   top: 50%;
 }
 
+.bottom-\[50px\] {
+  bottom: 50px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -878,6 +882,10 @@ video {
 @media (min-width: 768px) {
   .md\:bottom-\[60px\] {
     bottom: 60px;
+  }
+
+  .md\:bottom-\[70px\] {
+    bottom: 70px;
   }
 
   .md\:flex {

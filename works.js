@@ -6,7 +6,7 @@ var data = [
     description:
       "An e-commerce website for the audiophile with product to add to cart, the cart integrated and a page to checkout the order with the total price.",
     category: "REACTJS · SCSS",
-    link: "https://niamorweb.github.io/nslides/",
+    link: "https://niamordev.github.io/ecommerce-audiophile-vite-project/",
     codeSource:
       "https://github.com/niamordev/ecommerce-audiophile-vite-project",
   },

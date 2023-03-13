@@ -33,44 +33,45 @@ body {
             backdrop-filter: blur(2px);
     transition: 0.3s;
   }
-}
-@media (min-width: 1024px) and (min-width: 1024px) {
-  .works__work:nth-child(2n) {
+  .works__container_all_works .works__work:nth-child(2n) {
     flex-direction: row-reverse;
   }
 }
-@media (min-width: 1024px) {
-  .works__work:hover .works__work_img::before {
-    background-color: transparent;
-    -webkit-backdrop-filter: blur(0);
-            backdrop-filter: blur(0);
-  }
-  .works__work .works__work_link {
-    position: relative;
-    overflow: hidden;
-  }
-  .works__work .works__work_link::before {
-    content: "";
-    position: absolute;
-    width: 0%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: #0193ec;
-    transition: 0.3s;
-    z-index: -1;
-    border-radius: 100px;
-  }
-  .works__work .works__work_link:hover::before {
-    width: 100%;
-  }
-  .works__work .works__work_link:hover {
-    color: white;
-  }
-  .works__work .works__work_link:hover svg path {
-    stroke: white;
-  }
+.works__work:nth-child(2n) {
+  flex-direction: row-reverse;
 }
+
+.works__work:hover .works__work_img::before {
+  background-color: transparent;
+  -webkit-backdrop-filter: blur(0);
+          backdrop-filter: blur(0);
+}
+.works__work .works__work_link {
+  position: relative;
+  overflow: hidden;
+}
+.works__work .works__work_link::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #0193ec;
+  transition: 0.3s;
+  z-index: -1;
+  border-radius: 100px;
+}
+.works__work .works__work_link:hover::before {
+  width: 100%;
+}
+.works__work .works__work_link:hover {
+  color: white;
+}
+.works__work .works__work_link:hover svg path {
+  stroke: white;
+}
+
 .header__mobile_nav_active {
   transform: translateY(0);
 }
@@ -162,8 +163,8 @@ body {
 }
 
 .circular_text {
-  -webkit-animation: circularText 12s linear infinite;
-          animation: circularText 12s linear infinite;
+  -webkit-animation: circularText 16s linear infinite;
+          animation: circularText 16s linear infinite;
 }
 
 @-webkit-keyframes circularText {

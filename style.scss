@@ -43,48 +43,49 @@ body {
         transition: 0.3s;
       }
     }
-  }
-
-  @media (min-width: 1024px) {
     .works__work:nth-child(2n) {
       flex-direction: row-reverse;
     }
   }
+}
 
-  .works__work {
-    &:hover {
-      .works__work_img::before {
-        background-color: transparent;
-        backdrop-filter: blur(0);
-      }
+.works__work:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.works__work {
+  &:hover {
+    .works__work_img::before {
+      background-color: transparent;
+      backdrop-filter: blur(0);
+    }
+  }
+
+  .works__work_link {
+    position: relative;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: #0193ec;
+      transition: 0.3s;
+      z-index: -1;
+      border-radius: 100px;
+    }
+    &:hover::before {
+      width: 100%;
     }
 
-    .works__work_link {
-      position: relative;
-      overflow: hidden;
+    &:hover {
+      color: white;
 
-      &::before {
-        content: "";
-        position: absolute;
-        width: 0%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        background: #0193ec;
-        transition: 0.3s;
-        z-index: -1;
-        border-radius: 100px;
-      }
-      &:hover::before {
-        width: 100%;
-      }
-
-      &:hover {
-        color: white;
-
-        svg path {
-          stroke: white;
-        }
+      svg path {
+        stroke: white;
       }
     }
   }
@@ -168,7 +169,7 @@ body {
 }
 
 .circular_text {
-  animation: circularText 12s linear infinite;
+  animation: circularText 16s linear infinite;
 }
 
 @keyframes circularText {

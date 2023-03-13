@@ -49,10 +49,6 @@ body {
   }
 }
 
-.works__work:nth-child(2n) {
-  flex-direction: row-reverse;
-}
-
 .works__work {
   &:hover {
     .works__work_img::before {

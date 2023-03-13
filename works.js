@@ -95,7 +95,7 @@ function createDataElement(data) {
     </div>
     <div class="lg:w-1/2 flex flex-col self-start  lg:self-end">
       <span class="uppercase text-1 font-semibold">${data.title}</span>
-      <span class="text-[20px] lg:text-[32px] mt-3 lg:mt-5">${data.description}</span>
+      <span class="text-[16px] lg:text-[24px] mt-3 lg:mt-5">${data.description}</span>
       <span class="text-base lg:text-lg mt-4 lg:mt-7">${data.category}</span>
       <div class="flex flex-col lg:flex-row items-start lg:gap-6 lg:items-center ">
       <a
@@ -104,16 +104,19 @@ function createDataElement(data) {
         class="works__work_link mt-8 flex items-center text-1 rounded-[100px] border-[1px] border-1 py-2 px-5 w-fit gap-3 text-lg uppercase"
       >
         <span>View website</span>
-        <img src="/portfolio/assets/icons/arrow_right.svg" alt=""
-      /></a>
+        <svg class="arrow_work_project" width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1.5L8 8.5L1 15.5" stroke="#373737" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
             <a
         href="${data.codeSource}"
         target="_blank"
         class="works__work_link mt-5 lg:mt-8 flex items-center text-1 rounded-[100px] border-[1px] border-1 py-2 px-5 w-fit gap-3 text-lg uppercase"
       >
         <span>View code</span>
-        <img src="/portfolio/assets/icons/arrow_right.svg" alt=""
-      /></a></div>
+         <svg class="arrow_work_project" width="9" height="17" viewBox="0 0 9 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1 1.5L8 8.5L1 15.5" stroke="#373737" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></a></div>
     </div>
   `;
   return element;

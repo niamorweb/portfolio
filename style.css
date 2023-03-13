@@ -162,8 +162,8 @@ body {
 }
 
 .circular_text {
-  -webkit-animation: circularText 5s linear infinite;
-          animation: circularText 5s linear infinite;
+  -webkit-animation: circularText 12s linear infinite;
+          animation: circularText 12s linear infinite;
 }
 
 @-webkit-keyframes circularText {

@@ -6,9 +6,9 @@ var data = [
     description:
       "An e-commerce website for the audiophile with product to add to cart, the cart integrated and a page to checkout the order with the total price.",
     category: "REACTJS · SCSS",
-    link: "https://niamordev.github.io/ecommerce-audiophile-vite-project/",
+    link: "https://niamorweb.github.io/ecommerce-audiophile-vite-project/",
     codeSource:
-      "https://github.com/niamordev/ecommerce-audiophile-vite-project",
+      "https://github.com/niamorweb/ecommerce-audiophile-vite-project",
   },
   {
     imageSrc: "/portfolio/assets/works/w2.png",
@@ -34,23 +34,23 @@ var data = [
       "An streaming website to watch films/series with a login/logout interface and the possibily to bookmark films and series that we prefer.",
     category: "REACTJS · SCSS · JS",
     link: "https://entertainment-web-app-five.vercel.app/",
-    codeSource: "https://github.com/niamordev/entertainment-web-app/",
+    codeSource: "https://github.com/niamorweb/entertainment-web-app/",
   },
   {
     imageSrc: "/portfolio/assets/works/w5.png",
     title: "Photosnap multipage",
     description: "A design multipage website.",
     category: "REACTJS · SCSS · JS",
-    link: "https://niamordev.github.io/photosnap-multi-page-website/",
-    codeSource: "https://github.com/niamordev/photosnap-multi-page-website",
+    link: "https://niamorweb.github.io/photosnap-multi-page-website/",
+    codeSource: "https://github.com/niamorweb/photosnap-multi-page-website",
   },
   {
     imageSrc: "/portfolio/assets/works/w6.png",
     title: "Designo multipage",
     description: "A design multipage website.",
     category: "REACTJS · SCSS · JS",
-    link: "https://niamordev.github.io/designo-multipage-website-master/",
-    codeSource: "https://github.com/niamordev/designo-multipage-website-master",
+    link: "https://niamorweb.github.io/designo-multipage-website-master/",
+    codeSource: "https://github.com/niamorweb/designo-multipage-website-master",
   },
   {
     imageSrc: "/portfolio/assets/works/w7.png",
@@ -58,8 +58,8 @@ var data = [
     description:
       "A website with all countries of the world with their details when we click on them using an API and React.",
     category: "REACTJS · SCSS · JS",
-    link: "https://niamordev.github.io/countries-app/",
-    codeSource: "https://github.com/niamordev/countries-app/",
+    link: "https://niamorweb.github.io/countries-app/",
+    codeSource: "https://github.com/niamorweb/countries-app/",
   },
   {
     imageSrc: "/portfolio/assets/works/w8.png",
@@ -67,16 +67,16 @@ var data = [
     description:
       "A design multipage website for the space lovers using React and with transitions on pages.",
     category: "REACTJS · SCSS · JS",
-    link: "https://niamordev.github.io/space-tourism-website-main/",
-    codeSource: "https://github.com/niamordev/space-tourism-website-main",
+    link: "https://niamorweb.github.io/space-tourism-website-main/",
+    codeSource: "https://github.com/niamorweb/space-tourism-website-main",
   },
   {
     imageSrc: "/portfolio/assets/works/w9.png",
     title: "Ecommerce single page",
     description: "An e-commerce single page product with a cart integrated.",
     category: "HTML · SCSS · JS",
-    link: "https://niamordev.github.io/ecommerce-product-page-main",
-    codeSource: "https://github.com/niamordev/ecommerce-product-page-main",
+    link: "https://niamorweb.github.io/ecommerce-product-page-main",
+    codeSource: "https://github.com/niamorweb/ecommerce-product-page-main",
   },
 ];
 
